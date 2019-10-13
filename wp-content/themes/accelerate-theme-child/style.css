@@ -2,7 +2,7 @@
 Theme Name:   Accelerate Theme Child
 Theme URI:    http://example.com/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Kimberly Livingstone
+Author:   	Your Name!
 Author URI:   http://example.com
 Template: 	accelerate-theme
 Version:      2.0.0
@@ -22,69 +22,7 @@ Text Domain:  accelerate-theme-child
     background: #45ac9d;
 }
 
-/* Social Media Icons */ 
-
-.social-media-navigation ul {
-    list-style: none;
-}
-
-.social-media-menu li {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 0px 3px;
-    padding: 9px 0;
-    text-align: center;
-    border-radius: 50%;
-    background: #3b3b3b;
-    font-size: 1em;
-}
-
-.social-media-navigation a {
-    color: white;
-}
-
-/* Hide content visually but make available to screen readers 
-
-.screen-reader-text {
-    position: absolute !important;
-    overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
-    width: 1px;
-    height: 1px;
-    word-wrap: normal !important;
-}
-
-*/
-
-/* Featured Work on Homepage */
-
-.featured-work h4 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.featured-work h3 {
-    margin-top: 10px;
-}
-
-ul.homepage-featured-work {
-    list-style: none;
-}
-
-li.individual-featured-work {
-    display: inline-block;
-    padding: 0 5px;
-    text-align: center;
-}
-
-.individual-featured-work a {
-    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-
-}
-
-/* Blog Posts */
+/* Style Blog Post on Homepage */
 
 .blog-post {
     width: 50%;
@@ -101,7 +39,6 @@ li.individual-featured-work {
 
 .blog-post h3 {
     font-size: 1.5em;
-    margin-top: 20px;
 }
 
 .read-more-link {
@@ -109,46 +46,4 @@ li.individual-featured-work {
     font-weight: 700;
     color: #45ac9d;
     text-transform: uppercase;
-}
-
-/* Case Studies */
-
-.case-study {
-    width: 100%;
-}
-
-article.case-study {
-    float: left;
-    overflow: clear;
-}
-
-.case-study-sidebar {
-    float: left;
-    margin-right: 5%;
-    width: 40%;
-}
-
-.case-study-sidebar h4 {
-    color: #a6a6a6;
-    font-family: 'Open Sans';
-    font-size: 1em;
-    font-weight: 400;
-    margin-top: 10px;
-}
-
-.case-study-sidebar span {
-    color: #3b3b3b;
-}
-
-.case-study-images {
-    float: left;
-    margin-left: 5%;
-    width: 40%;
-}
-
-.case-study-images img {
-    margin-bottom: 20px;
-    margin-top: 43.5px;
-    width: 100%;
-    height: auto;
 }
