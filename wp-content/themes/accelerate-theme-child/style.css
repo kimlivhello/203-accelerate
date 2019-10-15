@@ -145,3 +145,89 @@ li.individual-featured-work {
 .social-media-navigation a {
     color: white;
 }
+
+/* Contact Page Styles */
+
+#nf-field-4 {
+    background: #45ac9d;
+    display: block;
+    float: right;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+.contact #nf-form-1-cont,
+.contact h2,
+.contact p {
+    margin: auto;
+    width: 70%;
+} 
+
+.contact #nf-form-1-cont {
+    margin-top: 2em;
+}
+
+/* About Page Styles */
+
+.about .hero-content h3 {
+    margin: auto;
+    width: 50%;
+}
+
+.about h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about p {
+    text-align: center;
+}
+
+.services {
+    margin: auto;
+    width: 60%;
+}
+
+.services p {
+    text-align: left;
+}
+
+.services-content {
+    width: 70%;
+}
+
+.service-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-contact {
+    border-top: 1px solid #bfbfbf;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+.about-contact-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-contact h3 {
+    text-align: center;
+    float: left;
+    width: 45%;
+}
+
+.about-contact .button {
+    float: left;
+    margin: 2em .5em .5em;
+}

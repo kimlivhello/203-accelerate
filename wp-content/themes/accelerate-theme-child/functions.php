@@ -33,7 +33,38 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+    register_post_type( 'services',
+    array(
+        'labels' => array(
+            'name' => __( 'Services' ),
+            'singular_name' => __( 'Service' )
+        ),
+        'public' => true,
+        'has_archive' => false,
+        'rewrite' => array( 'slug' => 'services' ),
+        )
+    );
 }
 
 // Hook this custom post type function into the theme
 add_action( 'init', 'create_custom_post_types' );
+
+// Add class to contact page
+
+add_filter( 'body_class','accelerate_child_body_classes' );
+function accelerate_child_body_classes( $classes ) {
+
+
+  if (is_page('contact-us') ) {
+    $classes[] = 'contact';
+  }
+
+  if (is_page('about') ) {
+      $classes[] = 'about';
+  }
+    
+    return $classes;
+     
+}
+
+?>
