@@ -62,4 +62,13 @@ get_header(); ?>
         </div>
     </section>
 
+    <section class="recent-tweets">
+        <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+            <div id="secondary" class="widget-area" role="complementary">
+                <?php dynamic_sidebar( 'sidebar-2' ); ?>
+            </div>
+        <?php endif; ?>
+        <span class="twitter-follow-link"><a href="https://twitter.com/KimLivHello?ref_src=twsrc%5Etfw" data-show-count="false">Follow Us ›</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span>
+    </section>
+
 <?php get_footer(); ?>

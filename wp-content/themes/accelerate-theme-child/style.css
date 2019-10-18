@@ -72,7 +72,42 @@ li.individual-featured-work {
 }
 
 .read-more-link {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Open-Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+/* Twitter Feed Style on Homepage */
+
+.recent-tweets {
+  width: 30%;
+  float: left;
+  margin: 0 2em;  
+}
+
+#custom-twitter-feeds-widget-2 h3 {
+    font: 700 1em 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0;
+}
+
+.ctf-header {
+    display: none;
+}
+
+.ctf-item {
+    margin-bottom: 1em;
+}
+
+.ctf-more {
+    display: none;
+}
+
+.twitter-follow-link {
+    font-family: 'Montserrat', 'Open-Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
     font-weight: 700;
     color: #45ac9d;
     text-transform: uppercase;
@@ -146,6 +181,27 @@ li.individual-featured-work {
     color: white;
 }
 
+/* Blog Sidebar Styles */
+
+#sidebar .widget_search {
+    border-top: 1px solid #bfbfbf;
+}
+
+.widget_mc4wp_form_widget {
+    font: 600 .875em/1.5 'Open Sans', Arial, sans-serif;
+    margin-bottom: 2em;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #45ac9d;
+    padding: 1em 3.75em 2em;
+}
+
+.mc4wp-form mc4wp-form-47384 p {
+    font-size: .875em;
+}
+
+
 /* Contact Page Styles */
 
 #nf-field-4 {
@@ -185,23 +241,46 @@ li.individual-featured-work {
 }
 
 .services {
-    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 3em auto;
     width: 60%;
 }
 
-.services p {
-    text-align: left;
+.services-item:nth-child(odd) {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.services-item:nth-child(even) {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.services-image {
+    width: 25%;
 }
 
 .services-content {
     width: 70%;
 }
 
-.service-item {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+.services p {
+    font-family: 'Montserrat', 'Open-Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: left;
+}
+
+.services h2 {
+    font-family: 'Montserrat', 'Open-Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
 }
 
 .about-contact {
@@ -219,15 +298,43 @@ li.individual-featured-work {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .about-contact h3 {
     text-align: center;
     float: left;
-    width: 45%;
+    width: 50%;
 }
 
 .about-contact .button {
     float: left;
     margin: 2em .5em .5em;
+}
+
+/* 404 Styles */
+
+.whoops h1 {
+    color: #45ac9d;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+.whoops a {
+    color: #45ac9d;
+    font-weight: 700;
+}
+
+.credit {
+    font-size: .75em;
+}
+
+.pic-404 {
+    float: left;
+    width: 25%;
+}
+
+.whoops {
+    float: left;
+    width: 75%;
 }
